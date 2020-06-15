@@ -3,5 +3,38 @@
 <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
 
 {% block content%}
-    <h1>store</h1>
+    <div class="row">
+        <div class="col-lg-4">
+            <img class="thumbnail" src="{% static 'images/placeholder.png' %}">
+            <div class="box-element placeholder">
+                <h6><strong>product</strong></h6>
+                <hr>
+                <button class ="btn btn-outline-secondary add-btn">Add to Cart</button>
+                <a class="btn btn-outline-success" href="#">View</a>
+                <h4 style="float:right">Rs.200</h4>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <img class="thumbnail" src="{% static 'images/placeholder.png' %}">
+            <div class="box-element placeholder">
+                <h6><strong>product</strong></h6>
+                <hr>
+                <button class ="btn btn-outline-secondary add-btn">Add to Cart</button>
+                <a class="btn btn-outline-success" href="#">View</a>
+                <h4 style="float:right">Rs.200</h4>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <img class="thumbnail" src="{% static 'images/placeholder.png' %}">
+            <div class="box-element placeholder">
+                <h6><strong>product</strong></h6>
+                <hr>
+                <button class ="btn btn-outline-secondary add-btn">Add to Cart</button>
+                <a class="btn btn-outline-success" href="#">View</a>
+                <h4 style="float:right">Rs.200</h4>
+            </div>
+        </div>
+    </div>
 {% endblock content %}
